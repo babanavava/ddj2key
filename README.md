@@ -2,6 +2,12 @@
 
 よ！Pioneer DJの DDJシリーズのDJコントローラーのパフォーマンスパッドとデックボタンをキーボード入力に変換するプログラム作ったよ！
 
+## 注意事項
+
+このプログラムはDDJ-400でしか動作確認してないから、他の機器では動作するかどうか保証はできかねるよ！
+
+でも多分動くと思うよ！
+
 ## 使い方よ！(windows限定よ！)
 
 1. 下のところから[**ddj2key-win.zip**](https://github.com/babanavava/ddj2key/releases/download/v0.0.0/ddj2key-win.zip)をダウンロードするよ！
@@ -42,7 +48,7 @@ $ py ddj2key.py
 windowsでも出来るけどよ！
 
 ## configs
-プリセットとして5つconfig.iniファイルを作っておいたよ！
+プリセットとして5つconfig.iniファイルを作っておいたよ！ddj2key.exeがあるフォルダのconfig.iniを上書きすればすぐに使うことが出来るよ！
 
 それぞれどのような配置か説明するよ！
 
@@ -67,6 +73,14 @@ leverlessのWASD部分を矢印キーに置き換えたものだよ！
 ### arrow_left
 WASDのWASD部分を矢印キーで置き換えたような配置だよ！
 ![arrow_right](/configs/arrow_left/arrow_left_layout.png)
+
+## config.iniは自由よ！
+上記のキー配置は全てconfig.iniの中に書かれてるから、それを自由に書き換えて君だけのオリジナル配置を作ることもできるよ！
+
+config.iniファイル内のキーがそれぞれDDJ-400上でどのボタンを指しているのかを示した画像を以下に置いておくよ！これを参考にして作ってみてくれよ！
+![ddj_config](/image/ddj_config_layout.png)
+
+
 
 ## ライセンス
 自由に使っていいよ！派生してもっといいアプリ作ってもらってもいいよ！
