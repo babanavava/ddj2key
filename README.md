@@ -8,6 +8,8 @@
 
 でもDDJシリーズなら多分動くと思うよ！
 
+それと、rekordboxなど対象のMIDIデバイスを使用するソフトウェアは同時に使用できないから注意よ！
+
 ## 使い方よ！(windows限定よ！)
 
 1. 下のところから[**ddj2key-win.zip**](https://github.com/babanavava/ddj2key/releases/download/v0.0.0/ddj2key-win.zip)をダウンロードするよ！
@@ -45,7 +47,7 @@ $ py ddj2key.py
 ```
 こんな感じで起動できると思うよ！
 
-windowsでも出来るけどよ！
+パイソン入れりゃwindowsでも出来るけどよ！
 
 ## configsよ！
 プリセットとして5つconfig.iniファイルを作っておいたよ！ddj2key.exeがあるフォルダのconfig.iniを上書きすればすぐに使うことが出来るよ！
