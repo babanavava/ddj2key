@@ -80,21 +80,24 @@ WASDのWASD部分を矢印キーで置き換えたような配置だよ！
 上記のキー配置は全てconfig.iniの中に書かれてるから、それを自由に書き換えて君だけのオリジナル配置を作ることもできるよ！
 
 ### miscセクションの説明よ！
+
 - `midi_input_device_id`キーは、pygame.midiモジュールでのデバイスIDでどのデバイスを使用するかを決めるものだよ！(デフォルトは`1`よ！)
 - `pad_all`キーは`pad_all`セクション`pad_all_shift`セクションのボタン配置をDDJのHotCueやBeatLoopモードなど全てのモードにおいて適応させるものだよ！`0`にするとその他のモード名のセクションごとに配置を決めることが出来るようになるよ！(デフォルトは`1`よ！)
 - `all_space`キーは`1`にするとこのプログラムで割り当て可能などのボタンを押してもSPACEキーが入力されるようになるよ！(デフォルトは`0`よ！)
 
 ### マッピングよ！
+それぞれのキーの'L'/'R'はそれぞれDECK1/DECK2を表しているよ！DECK3やDECK4は使えないので注意よ！
+
+モード名のセクションや`pad_all`セクションの名前の末尾に'_shift'とついているのはshiftを押した状態のそのモードのボタンを割り当てれるよ！
+
 config.iniファイル内の`misc`以外のセクションのキーがそれぞれDDJ-400上でどのボタンを指しているのかを示した画像を以下に置いておくよ！これを参考にして作ってみてくれよ！
 ![ddj_config](/image/ddj_config_layout.png)
 `deck`セクションは`D4L`、`D4R`を除いた、`D1L`から`D11R`まで割り当てることが出来、`deck_shift`セクションはshiftを押した状態の`deck`セクションのボタン配置なので、shiftボタン本人である`D11L`、`D11R`は割り当てられないよ！
 
-勘の良い読者ならお分かりだと思うが、モード名のセクションや`pad_all`セクションの名前の末尾に'_shift'とついているのはshiftを押した状態のそのモードのボタンを割り当てれるよ！
-
 #### D4LとD4Rが無い理由
 [DDJ-400 MIDI-compatible software – AlphaTheta Help Center](https://support.pioneerdj.com/hc/ja/articles/4405094309657-DDJ-400-MIDI-compatible-software)👈そもそもこのリンクの[MIDIメッセージ一覧](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_j1.pdf)に準拠してボタン名は決めていますよ！
 
-`D4L`、`D4R`がないのはその中でにボタンじゃなかったためなくなりましたよ
+`D4L`、`D4R`がないのはその中でにボタンじゃなかったためなくなりましたよ…
 
 ## ライセンスよ！
 自由に使っていいよ！派生してもっといいアプリ作ってもらってもいいよ！
