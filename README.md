@@ -36,7 +36,7 @@
 
 ## windows以外の民よ！
 
-このプログラムは普通のパイソンで作られているので、
+このプログラムは普通のパイソンで作られているので、パイソンとギットを入れてから
 ```sh
 $ git clone https://github.com/babanavava/ddj2key.git
 $ cd ddj2key
@@ -47,7 +47,7 @@ $ py ddj2key.py
 ```
 こんな感じで起動できると思うよ！
 
-パイソン入れりゃwindowsでも出来るけどよ！
+windowsでも出来るけどよ！
 
 ## configsよ！
 プリセットとして5つconfig.iniファイルを作っておいたよ！ddj2key.exeがあるフォルダのconfig.iniを上書きすればすぐに使うことが出来るよ！
@@ -87,9 +87,18 @@ WASDのWASD部分を矢印キーで置き換えたような配置だよ！
 ### マッピングよ！
 config.iniファイル内の`misc`以外のセクションのキーがそれぞれDDJ-400上でどのボタンを指しているのかを示した画像を以下に置いておくよ！これを参考にして作ってみてくれよ！
 ![ddj_config](/image/ddj_config_layout.png)
-`deck`セクションは`D1L`から`D11R`まで割り当てることが出来、`deck_shift`セクションはshiftを押した状態の`deck`セクションのボタン配置なので、shiftボタン本人である`D11L`、`D11R`は割り当てられないぞ！
+`deck`セクションは`D4L`、`D4R`を除いた、`D1L`から`D11R`まで割り当てることが出来、`deck_shift`セクションはshiftを押した状態の`deck`セクションのボタン配置なので、shiftボタン本人である`D11L`、`D11R`は割り当てられないよ！
 
 勘の良い読者ならお分かりだと思うが、モード名のセクションや`pad_all`セクションの名前の末尾に'_shift'とついているのはshiftを押した状態のそのモードのボタンを割り当てれるよ！
 
+#### D4LとD4Rが無い理由
+[DDJ-400 MIDI-compatible software – AlphaTheta Help Center](https://support.pioneerdj.com/hc/ja/articles/4405094309657-DDJ-400-MIDI-compatible-software)👈そもそもこのリンクの[MIDIメッセージ一覧](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_j1.pdf)に準拠してボタン名は決めていますよ！
+
+`D4L`、`D4R`がないのはその中でにボタンじゃなかったためなくなりましたよ
+
 ## ライセンスよ！
 自由に使っていいよ！派生してもっといいアプリ作ってもらってもいいよ！
+
+## クレジットよ！
+- [DDJ-400](https://www.pioneerdj.com/ja-jp/product/controller/archive/ddj-400/black/overview/) (https://www.pioneerdj.com/ja-jp/product/controller/archive/ddj-400/black/overview/)
+
