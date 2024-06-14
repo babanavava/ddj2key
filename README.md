@@ -47,7 +47,7 @@ $ py ddj2key.py
 
 windowsでも出来るけどよ！
 
-## configs
+## configsよ！
 プリセットとして5つconfig.iniファイルを作っておいたよ！ddj2key.exeがあるフォルダのconfig.iniを上書きすればすぐに使うことが出来るよ！
 
 それぞれどのような配置か説明するよ！
