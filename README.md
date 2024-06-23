@@ -12,7 +12,7 @@
 
 ## 使い方よ！(windows限定よ！)
 
-1. [Release](https://github.com/babanavava/ddj2key/releases/latest)から[**ddj2key-win.zip**](https://github.com/babanavava/ddj2key/releases/download/v0.0.0/ddj2key-win.zip)をダウンロードするよ！
+1. [**Releases**](https://github.com/babanavava/ddj2key/releases/latest)から[**ddj2key-win.zip**](https://github.com/babanavava/ddj2key/releases/download/v0.0.0/ddj2key-win.zip)をダウンロードするよ！
 
 2. ファイルマネージャーを開きダウンロードした**ddj2key-win.zip**を選択し「**すべて展開**」を選択して、展開するよ！
 
@@ -22,7 +22,7 @@
 
 5. 現れたウィンドウの"Start"をクリックして、DDJのパフォーマンスパッドを適当に押してメモ帳などに文字が入力されるかを確認するよ！
 
----------ここまでできれば以降は必要ないよ！---------
+**---------ここまででできれば以降は必要ないよ！---------**
 
 6. もし入力されなければ ddj2key-winフォルダ内の**pygame_midi_device_detector.exe**を起動するよ！
 
