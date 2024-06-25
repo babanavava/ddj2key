@@ -62,9 +62,9 @@ windowsでも出来るけどよ！
 元々このプログラムはDJコントローラーがスト6に使えるのではないかと思って作られたものだったからこれがデフォルトになってるよ！
 ![leverless](/configs/leverless(default)/leverless_layout.png)
 
-### WASD
-左手部分がWASDを含む通常のQWERTY配列の配置となっていて、キーボードを使ったゲームがやりやすそうな配置だよ！
-![WASD](/configs/WASD/WASD_layout.png)
+### keyboardy_WASD
+左手部分がWASDを含む通常のキーボード風の配置となっていて、元々キーボードを使うゲームがやりやすそうな配置だよ！
+![WASD](/configs/keyboardy_WASD/keyboardy_WASD_layout.png)
 
 ### leverless_arrow
 leverlessのWASD部分を矢印キーに置き換えたものだよ！
@@ -75,7 +75,7 @@ leverlessのWASD部分を矢印キーに置き換えたものだよ！
 ![arrow_right](/configs/arrow_right/arrow_right_layout.png)
 
 ### arrow_left
-WASDのWASD部分を矢印キーで置き換えたような配置だよ！
+keyboardy_WASDのWASD部分を矢印キーで置き換えたような配置だよ！
 ![arrow_right](/configs/arrow_left/arrow_left_layout.png)
 
 ## config.iniの説明よ！
